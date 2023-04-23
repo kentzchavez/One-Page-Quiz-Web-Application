@@ -23,7 +23,7 @@ session_destroy();
 
 	<form method="POST" action="register.php">
 		Enter your full name:<br />
-		<input type="text" name="fullname" placeholder="Full Name" required />
+		<input type="text" name="complete_name" placeholder="Full Name" required />
 		<br />
 		Email:<br />
 		<input type="email" name="email" required/>

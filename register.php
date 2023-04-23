@@ -9,10 +9,10 @@ session_start();
 // inserted the complete required information or not, if so, then program will redirect to the quiz.php file
 
 try {
-    if (isset($_POST['fullname'])) {
-        $_SESSION['user_fullname'] = $_POST['fullname'];
-        $_SESSION['user_email'] = $_POST['email'];
-        $_SESSION['user_birthdate'] = $_POST['birthdate'];
+    if (isset($_POST['complete_name'])) {
+        $_SESSION['complete_name'] = $_POST['complete_name'];
+        $_SESSION['email'] = $_POST['email'];
+        $_SESSION['birthdate'] = $_POST['birthdate'];
 
         header('Location: quiz.php');
         exit;

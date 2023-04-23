@@ -42,7 +42,7 @@ try {
 
 <h1>Thank You!</h1>
 <h3>
-    Congratulations <?php echo $_SESSION['user_fullname']; ?> (<?php echo $_SESSION['user_email']; ?>)! <br />
+    Congratulations <?php echo $_SESSION['complete_name']; ?> (<?php echo $_SESSION['email']; ?>)! <br />
     Score: <span style="color: blue"><?php echo $score; ?></span> out of <?php echo $manager->getQuestionSize() ;?> items <br />
     Your Answers:
 </h3>
